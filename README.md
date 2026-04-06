@@ -99,9 +99,9 @@ To ensure scalability and data integrity, I migrated the raw financial data into
 > **Strategic Insight:** At the current market price of **~$152**, Snowflake is trading at its "Bear Case" valuation. My model suggests that any stabilization in revenue growth above 18% provides a significant upside catalyst toward the **$190** target.
 
 ---
-
-## 📂 File Structure
-
-* 📁 **[SQL_Scripts](./SQL_Scripts):** Automated scripts for data unpivoting and metric logic.
-* 📁 **[PowerBI_Dashboard](./PowerBI_Dashboard):** Interactive .pbix report and 3-page Executive PDF.
-* 📁 **[Excel_Model](./Excel_Modeling):** Integrated 3-Statement DCF and Sensitivity Analysis.
+| Component | Link | Description |
+| :--- | :--- | :--- |
+| **Database Scripts** | [📁 Sql_Scripts](./Sql_Scripts) | Automation of unpivoting and SaaS logic. |
+| **Power BI Dashboard** | [📈 snowflake.pbix](./snowflake.pbix) | Interactive .pbix source file. |
+| **Executive Summary** | [📑 Snowflake Saas.pdf](./Snowflake%20Saas.pdf) | 3-Page Executive Dashboard (PDF). |
+| **Financial Model** | [📊 Excel Model](./Snowflake%20Saas%20Model%20and%20DCF.xlsx) | 3-Statement DCF and Sensitivity Analysis. |

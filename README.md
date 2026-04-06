@@ -1,19 +1,58 @@
 # ❄️ Snowflake (SNOW) SaaS Financial Model & Valuation
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Tools](https://img.shields.io/badge/Tools-Excel%20%7C%20Sensitivity%20Analysis-blue)
-![Type](https://img.shields.io/badge/Type-SaaS%20Valuation-green)
+![Power BI](https://img.shields.io/badge/Data_Viz-Power_BI-yellow) ![SQL](https://img.shields.io/badge/Database-MySQL-blue) ![Excel](https://img.shields.io/badge/Modeling-Excel_FP%26A-green) ![Status](https://img.shields.io/badge/Status-Project_Complete-success)
 
-## 📊 Executive Summary
-This project is a comprehensive **bottoms-up financial valuation** of Snowflake Inc. (NYSE: SNOW), projecting the company's financials from FY2026 to FY2031. 
+## 🎯 Project Overview
+This project is an **institutional-grade, bottoms-up financial valuation** and automated data pipeline for **Snowflake Inc. (NYSE: SNOW)**, projecting performance from **FY2026 to FY2031**. 
 
-The objective was to determine the intrinsic value of the company amidst decelerating revenue growth and determining if the current market premium (~20x Revenue) is justified by its Unit Economics.
+Unlike static models, this architecture integrates a **SQL-to-Power BI pipeline** to automate SaaS metric calculations and visualize unit economics, bridging the gap between raw data engineering and high-conviction equity research.
 
-**Key Findings:**
-* **Intrinsic Value (Base Case):** ~$190/share (vs. Market Price of ~$250).
-* **Implied Premium:** The model identifies a ~30% "Growth Premium" currently priced in by the market.
-* **Unit Economics:** Despite high upfront S&M spend, the model calculates an elite **LTV/CAC ratio of >4.8x**, driven by 125% Net Revenue Retention.
-* **Efficiency:** The company maintains a "Rule of 40" score >47% throughout the projection period, validating the "Quality Growth" thesis.
+---
+
+## 💡 Key Strategic Findings (As of April 2026)
+
+| Metric | Value | Insight |
+| :--- | :--- | :--- |
+| **Intrinsic Value (Base Case)** | **$190 / share** | Calculated via 5-Year DCF (8.5% WACC). |
+| **Current Market Price (CMP)** | **~$152** | Represents a **~20% Margin of Safety**. |
+| **LTV / CAC Ratio** | **5.24x** | Elite-tier efficiency despite high upfront S&M. |
+| **Net Revenue Retention** | **125%** | Proves robust "Land and Expand" durability. |
+| **Rule of 40 Score** | **>50%** | Places SNOW in the top 1% of global SaaS assets. |
+
+> **The Valuation Gap:** The model suggests the market has over-corrected on revenue deceleration concerns. By ignoring the **$9.77B RPO (Orderbook)** and AI-driven consumption tailwinds, the current market price offers a significant entry point for long-term investors.
+
+---
+
+## 🛠️ Technical Stack & Architecture
+
+### **1. Database & ETL (MySQL)**
+* **Data Normalization:** Migrated historical and projected financials from flat files to a relational schema.
+* **Logic Layer:** Engineered **SQL Views** using CTEs and Window Functions (`LAG`, `LEAD`) to calculate SaaS KPIs at the source.
+* **Automation:** Automated the unpivoting of 9 years of fiscal data to ensure a clean Star Schema for BI tools.
+
+### **2. Financial Modeling (Excel)**
+* **3-Statement Model:** Integrated Income Statement, Balance Sheet, and Cash Flow projections.
+* **Valuation Engine:** 5-Year DCF with dynamic WACC and Terminal Growth sensitivity tables.
+* **Cash Flow Optimization:** Modeled **Deferred Revenue** impact to capture the cash "float" inherent in Snowflake's enterprise consumption model.
+
+### **3. Business Intelligence (Power BI)**
+* **Executive Summary:** Real-time tracking of Rule of 40 and Sales Efficiency (Magic Number).
+* **Revenue Quality:** Interactive analysis of RPO trends and growth deceleration curves.
+* **Profitability Bridge:** Visualized the delta between GAAP losses and Non-GAAP profitability, isolating **Stock-Based Compensation (SBC)**.
+
+---
+
+## 📂 Repository Structure
+
+* 📁 **[SQL_Scripts](./SQL_Scripts):** Staging, Unpivot Logic, and SaaS Metric Views.
+* 📁 **[PowerBI_Report](./PowerBI_Dashboard):** `.pbix` source file and 3-Page Executive PDF.
+* 📁 **[Excel_Model](./Excel_Modeling):** Full DCF Model and Sensitivity Analysis.
+* 📁 **[Documentation](./Documentation):** Technical walkthroughs and video demo.
+
+---
+
+## 📺 Technical Walkthrough
+*
 
 ---
 

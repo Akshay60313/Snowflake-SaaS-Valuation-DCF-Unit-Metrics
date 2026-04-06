@@ -52,10 +52,10 @@ Unlike static models, this architecture integrates a **SQL-to-Power BI pipeline*
 
 ---
 
-## 📺 Technical Walkthrough
-*
-
----
+### 🖥️ Interactive Dashboard Preview
+<p align="center">
+  <img src="./Snowflake_Video_pbix.gif" width="900" title="Snowflake SaaS Dashboard Walkthrough">
+</p>
 
 ## 🖼️ Dashboard Preview
 <img width="1272" height="702" alt="Snowflake dashboard" src="https://github.com/user-attachments/assets/51351c96-91c7-47ec-bf43-ecf91650df47" />

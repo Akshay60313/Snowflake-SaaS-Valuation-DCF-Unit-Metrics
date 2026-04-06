@@ -43,11 +43,12 @@ Unlike static models, this architecture integrates a **SQL-to-Power BI pipeline*
 ---
 
 ## 📂 Repository Structure
-
-* 📁 **[SQL_Scripts](./SQL_Scripts):** Staging, Unpivot Logic, and SaaS Metric Views.
-* 📁 **[PowerBI_Report](./PowerBI_Dashboard):** `.pbix` source file and 3-Page Executive PDF.
-* 📁 **[Excel_Model](./Excel_Modeling):** Full DCF Model and Sensitivity Analysis.
-* 📁 **[Documentation](./Documentation):** Technical walkthroughs and video demo.
+| Component | Link | Description |
+| :--- | :--- | :--- |
+| **Database Scripts** | [📁 Sql_Scripts](./Sql_Scripts) | Automation of unpivoting and SaaS logic. |
+| **Power BI Dashboard** | [📈 snowflake.pbix](./snowflake.pbix) | Interactive .pbix source file. |
+| **Executive Summary** | [📑 Snowflake Saas.pdf](./Snowflake%20Saas.pdf) | 3-Page Executive Dashboard (PDF). |
+| **Financial Model** | [📊 Excel Model](./Snowflake%20Saas%20Model%20and%20DCF.xlsx) | 3-Statement DCF and Sensitivity Analysis. |
 
 ---
 
